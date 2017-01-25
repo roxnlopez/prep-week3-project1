@@ -70,6 +70,16 @@ document.getElementById("q4").innerHTML = mean();
 //    Since the price of the cashews can change anytime, pass that amount into the function to get your total price.
 
 
+function getTotal()
+{
+    var cakePrice = getCakeSizePrice() + getFillingPrice() +
+                          candlesPrice() + insciptionPrice();
+
+    document.getElementById("q5").innerHTML = getTotal;
+
+}
+
+
 
 
 // 6. Define functions called "area" and "perimeter". They should both accept two parameters and calculate the area and perimeter of a rectangle.

@@ -53,7 +53,17 @@ greeting(userName, userGreeting);
 
 // 4. Create a function that finds the average of 6 numbers passed in when called
 //    and returns the value and is then displayed in the HTML page.
+function average(6) {
+  return value;
+}
 
+var summedNumber = average(6);
+
+var singleNumber = 1;
+
+var finalNumber = singleNumber + summedNumber;
+
+document.getElementById("q4").innerHTML = finalNumber;
 
 
 

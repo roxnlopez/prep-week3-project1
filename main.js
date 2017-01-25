@@ -40,15 +40,15 @@ document.getElementById("q2").innerHTML = divideByTwo(number);
 // 3. Define a function called "greeting".
 //    It should accept two parameters within input fields, which will both be first names.
 //    The function should display to the HTML page a greeting to both people.
-function greeting(Roxann, Marley) {
-  document.getElementById("q3").innerHTML += "<p>Good morning, " + name +".</p>";
+function greeting(name, sentence) {
+  document.getElementById("q3").innerHTML += "<p>Good morning, " + name + ".</p>";
 };
 
 greeting("Roxann", "Good Morning");
 
-var userName = "Mike";
-var userGreeting = "What are you doing tonight?";
-greeting(userName, userGreeting );
+var userName = "Marley";
+var userGreeting = "Top 'o' the Morning";
+greeting(userName, userGreeting);
 
 
 // 4. Create a function that finds the average of 6 numbers passed in when called

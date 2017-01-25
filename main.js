@@ -31,7 +31,10 @@ document.getElementById("q1").innerHTML = "Your face is funny!";
 //    submitted when a button is clicked.
 //    The function should divide the number by two and
 //    then displayed into the HTML page.
-
+function divideByTwo(number){
+ return number / 2 ;
+}
+document.getElementById("q2").innerHTML = divideByTwo(number);
 
 
 // 3. Define a function called "greeting".

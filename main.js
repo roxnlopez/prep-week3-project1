@@ -18,6 +18,11 @@ document.getElementById("q0").classList.add("status-good");
 
 // 1. Create a function that simply returns a string that says something funny
 //    when it is called and then displayed into the HTML page.
+function funny() {
+  return "Your face is funny";
+
+}
+document.getElementById("q1").innerHTML = "You're face is funny!";
 
 
 

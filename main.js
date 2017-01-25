@@ -34,7 +34,7 @@ document.getElementById("q1").innerHTML = "Your face is funny!";
 function divideByTwo(number){
  return number / 2 ;
 }
-document.getElementById("q2").innerHTML = divideByTwo(number);
+document.getElementById("q2").innerHTML = divideByTwo(2);
 
 
 // 3. Define a function called "greeting".

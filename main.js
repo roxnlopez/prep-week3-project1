@@ -22,7 +22,7 @@ function funny() {
   return "Your face is funny";
 
 }
-document.getElementById("q1").innerHTML = "You're face is funny!";
+document.getElementById("q1").innerHTML = "Your face is funny!";
 
 
 

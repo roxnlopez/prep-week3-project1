@@ -53,18 +53,16 @@ greeting(userName, userGreeting);
 
 // 4. Create a function that finds the average of 6 numbers passed in when called
 //    and returns the value and is then displayed in the HTML page.
-function average(6) {
-  return value;
+function mean(numbers) {
+    // mean of [3, 5, 4, 4, 1, 1]
+    var total = 0,
+        i;
+    for (i = 0; i < numbers.length; i += 1) {
+        total += numbers[i];
+    }
+    return total / numbers.length;
 }
-
-var summedNumber = average(6);
-
-var singleNumber = 1;
-
-var finalNumber = singleNumber + summedNumber;
-
-document.getElementById("q4").innerHTML = finalNumber;
-
+document.getElementById("q4").innerHTML = mean();
 
 
 // 5. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month.
